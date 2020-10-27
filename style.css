@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+}
+img {
+    height: 500px;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+blockquote {
+    border-left: 0.25em solid #e5e5e5;
+    font-size: 18px;
+    font-style: italic;
+    margin: 0 0 1.5625em;
+    padding-left: 1em;
+    padding-right: 1em;
+    quotes: none;
+  }
+  
+  blockquote:before,
+  blockquote:after {
+    content: '';
+  }
