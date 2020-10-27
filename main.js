@@ -5,7 +5,7 @@ var quotes = [
     {name: '"It takes something more than intelligence to act intelligently."', book: 'Crime and Punishment'},
     {name: '"The mystery of human existence lies not in just staying alive, but in finding something to live for."', book: 'The Karamazov Brothers'},
     {name: '"The awful thing is that beauty is mysterious as well as terrible. God and the devil are fighting there and the battlefield is the heart of man."', book: 'The Karamazov Brothers'},
-    {name: '"Beauty will save the world"', book: 'The Idiot'},
+    {name: '"Beauty will save the world."', book: 'The Idiot'},
     {name: '"If you want to overcome the whole world, overcome yourself."', book: 'The Demons'},
     {name: '"Man is tormented by no greater anxiety than to find someone quickly to whom he can hand over that great gift of freedom with which the ill-fated creature is born."', book: 'The Karamazov Brothers'},
     {name: '"How does it come about that what an intelligent man expresses is much more stupid than what remains inside him?"', book: "The Adolescent"},
