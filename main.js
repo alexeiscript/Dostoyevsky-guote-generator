@@ -1,3 +1,4 @@
+// Create array to contain quotes
 var quotes = [
     {name: '"Above all, don\'t lie to yourself. The man who lies to himself and listens to his own lie comes to a point that he cannot distinguish the truth within him, or around him, and so loses all respect for himself     and for others. And having no respect he ceases to love."', book: 'The Karamazov Brothers'},
     {name: '"Pain and suffering are always inevitable for a large intelligence and a deep heart. The really great men must, I think, have great sadness on earth."', book: 'Crime and Punishment'},
@@ -15,17 +16,24 @@ var quotes = [
     {name: '"It is necessary that every man have at least somewhere to go. For there are times when one absolutely must go at least somewhere."', book: 'Crime and Punishment'},
 ];
 
+// Grab elements by id and assign to variable
 var quoteBlock = document.getElementById('blockQuote');
 var bookName = document.getElementById('book');
 
+// Select the button and assign to variable
 var quoteButton = document.querySelector('.quote-button');
 
+// Populating blockquote and p elements with content from array
 var populate = function() {
+    // Randomly select quote from array
     var randomize = quotes[Math.floor(Math.random() * quotes.length)];
+    // Update content
     quoteBlock.textContent = randomize.name;
     bookName.textContent = randomize.book;
 }
 
+// Add event listener to button
 quoteButton.addEventListener('click', populate);
 
+// Call function on page load to display initial quote
 populate();
